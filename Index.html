@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <title>Formato de hoja de vida</title>
+         <link rel="stylesheet" href="estilos/miestilo.css">
+    </head>
+    <body>
+        <div id="cuerpo">
+            <header>
+                <div><img id="escudo" src="estilos/img/escudo.png">
+                    <p id="liberdad"><b>Libertad y orden</b></p>
+                </div>
+                <div class="texto_encabezado">
+                    <P id="formato">FORMATO ÚNICO</P>
+                    <P id="hoja"><b>HOJA DE VIDA</b></P>
+                    <P id="persona">Persona natural</P>
+                    <P>(Leyes 190 de 1995, 489 y 443 de 1998)</P>
+                </div>
+                <div class="texto_encabezado"><p>ENTIDAD RECEPTORA</p>
+                    <input id="entidad" type="text" name="nombredelacaja">
+                </div>
+            </header> 
+            <article>
+
+                <div class="titulo">
+                    <div class="numero_titulo">1</div>
+                    <div class="linea">-</div>
+                    <div class="texto_titulo">DATOS PERSONALES</div></div>                
+                <section>
+                    <div class="secciones">
+                        <div id="primero">
+                            <div>PRIMER APELLIDO<p><input type="text" name="nombredelacaja"></p></div>
+                            <div class="bordes">SEGUNDO APELLIDO ( O DE CASADA )<p><input type="text" name="nombredelacaja"></p></div>
+                            <div>NOMBRES<p><input type="text" name="nombredelacaja"></p></div>
+                        </div>   
+                    </div>
+                    <div class="secciones">
+                        <div id="segundo">
+                            <div id="documento">DOCUMENTO DE IDENTIFICACIÓN<p></p>
+                                C.C
+                                <input type="radio" name="tipo_documento" id="CC">
+                                <label for="CC"></label>
+                                C.E
+                                <input type="radio" name="tipo_documento" id="CE">
+                                <label for="CE"></label>
+                                PAS
+                                <input type="radio" name="tipo_documento" id="PAS">
+                                <label for="PAS"></label>
+                                No.
+                                <input class="tex_box_linea_inferior" type="text" name="nombredelacaja">
+                            </div>
+                            <div id="sexo">SEXO<p></p>
+                                F
+                                <input type="radio" name="sexo" id="F">
+                                <label for="F"></label>
+                                M
+                                <input type="radio" name="sexo" id="M">
+                                <label for="M"></label></div>                            
+
+                            <div id="nacionalidad">
+                                <div class="izquierda">
+                                NACIONALIDAD <p></p>
+                                COL.
+                                <input type="radio" name="nacionalidad" id="extranjero">
+                                <label for="extranjero"></label>
+                                EXTRANJERO
+                                <input type="radio" name="nacionalidad" id="extranjero">
+                                <label for="extranjero"></label> </div> 
+                                <div class="derecha">PAÍS<input class="tex_box_linea_inferior" type="text" name="nombredelacaja"></div>
+                            </div></div>    
+                            <div></div> 
+                        </div>
+
+
+                    <div class="secciones">
+                        <div id="tercero">
+
+                            LIBRETA MILITAR<p></p>
+                            <div>PRIMERA CLASE</div>
+                            <div><input type="radio" name="libreta_militar" id="primera_clase"></div>
+                            <div><label for="primera_clase"></label></div>
+                            <div>SEGUNDA CLASE CLASE</div>
+                            <div><input type="radio" name="libreta_militar" id="segunda_clase"></div>
+                            <div><label for="segunda_clase"></label></div>
+                            <div>NÚMERO<input class="tex_box_linea_inferior" type="text" name="nombredelacaja"></div>
+                            <div>D.M<input class="tex_box_linea_inferior" type="text" name="nombredelacaja"></div>
+                        </div>
+                    </div>
+                    <div class="secciones">
+                        <div id="cuarto">
+                            <div class="izquierda">FECHA Y LUGAR DE NACIMIENTO<p></p>
+                                <div>
+                                    FECHA
+                                    DÍA<input class="fecha" type="text" name="nombredelacaja">
+                                    MES <input class="fecha" type="text" name="nombredelacaja">
+                                    AÑO <input class="fecha" type="text" name="nombredelacaja"><p></p>
+                                </div>
+                                <div>PAÍS <input class="tex_box_linea_inferior" type="text" name="nombredelacaja"><p></p></div>
+                                <div>DEPTO <input class="tex_box_linea_inferior" type="text" name="nombredelacaja"><p></p></div>
+                                <div>MUNICIPIO<input class="tex_box_linea_inferior" type="text" name="nombredelacaja"><p></p></div>
+
+                            </div>
+                            <div class="derecha">DIRECCIÓN DE CORRESPONDENCIA<p></p>
+                                <input class="tex_box_linea_inferior" type="text" name="nombredelacaja"><p></p>
+                                PAÍS <input class="tex_box_linea_inferior" type="text" name="nombredelacaja"> DEPTO <input class="tex_box_linea_inferior" type="text" name="nombredelacaja"><p></p>
+                                MUNICIPIO<input class="tex_box_linea_inferior" type="text" name="nombredelacaja"><p></p>
+                                TELEFONO <input class="tex_box_linea_inferior" type="text" name="nombredelacaja">
+                                EMAIL <input class="tex_box_linea_inferior" type="text" name="nombredelacaja">
+                            
+
+
+                            </div>
+
+                        </div>
+                    </div>
+                    
+                </section>
+
+
+
+            </article>
+
+
+        </div>
+        <hr>
+    </body>
+</html>

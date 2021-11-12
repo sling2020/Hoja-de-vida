@@ -1,0 +1,192 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+#cuerpo{	
+	width: 60%;
+	margin: auto;
+	margin-top: 2%;
+	background: white;
+	padding: 3%;
+	box-shadow: 2px 2px 4px black;
+	height: 1000px;
+}
+body{
+	background: #333;
+}
+
+header{
+	border: 1px solid black;
+	text-align: center;
+	overflow: hidden;
+	border-radius: 20px;
+	box-shadow: 6px 6px;
+}
+
+header div{
+	float: left;
+	border: 3px solid white;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+
+header .texto_encabezado{
+	margin-top: 3%;
+}
+
+#escudo{
+	width: 50%;
+}
+
+#libertad{
+	font-size: 20px;
+	font-weight: 20px;
+}
+#formato{
+	font-size: 20px;
+}
+#hoja{
+	font-size: 30px;
+	font-weight: 10px;
+}
+#persona{ 
+	font-size: 15px; 
+}
+#entidad{
+	width: 110%;
+	font-size: 20px;
+	margin-top: 3%;
+}
+
+section{
+	border: 1px solid black;
+	box-shadow: 6px 6px;
+	margin-top: 2%;
+}
+
+.titulo{
+	margin-top: 2%;
+	overflow: hidden;
+	color: white;	
+	font-size: 15px;
+}
+
+.titulo div{
+	float: left;
+	background: black;		
+	padding: 1%;
+	text-align: center;
+}
+.titulo .texto_titulo{
+	height: 15px;
+	width: 20%;
+	border-radius: 40px;
+
+}
+.titulo .numero_titulo{
+	 width: 15px;
+     height: 15px;   
+     border-radius: 50%;
+}
+.titulo .linea{
+	background: none;
+	color: #02a0c6;
+	padding: 0px;
+	margin: 0px;	
+	font-size: 26px;
+}
+section #primero div{
+	float: left;	
+	width: 32%;
+	padding-left: 1%;
+	
+}
+.bordes{
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+}
+
+section #primero {
+	overflow: hidden;
+}
+section #primero div input{
+	border:none;
+	font-size: 25px;
+}
+section .secciones{
+	/*border: 1px solid black;*/
+}
+
+.secciones #segundo div{
+	float: left;
+	padding-left: 1%;
+	
+}
+
+.secciones #segundo{
+	overflow: hidden;
+}
+.secciones #segundo #documento{
+	width: 40%;
+}
+.secciones #segundo #nacionalidad{
+	width: 40%;
+}
+.tex_box_linea_inferior{
+	border: none;
+	border-bottom: 1px solid black;
+	margin-bottom: 1%;
+}
+.derecha{
+	width: auto;
+	float: right;
+}
+.izquierda{
+	width: 50%;
+	float: left;
+}
+
+#nacionalidad{
+	overflow: hidden;
+}
+#sexo{
+	width: 7%;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+}
+#segundo{
+	border-top: 1px solid black;
+}
+#tercero{
+	padding-left: 1%;
+	overflow: hidden;
+	border-top: 1px solid black;
+}
+#cuarto{
+	padding-left: 1%;
+	overflow: hidden;
+	border-top: 1px solid black;
+
+}
+.secciones #tercero div{
+	float: left;
+	margin-left: 1%;
+	margin-right: 4%;
+}
+.fecha{
+	width: 5%;
+}
+
+.secciones #cuarto .izquierda{
+	border-right: 1px solid black;
+	margin-right: 0px;
+	width: 49%;
+	padding-bottom: 1%;
+}
+.secciones #cuarto .derecha{
+	margin: 0px;	
+	width: 49%;
+	padding-bottom: 1%;
+}
+
